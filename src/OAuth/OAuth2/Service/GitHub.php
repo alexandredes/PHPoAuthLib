@@ -95,6 +95,11 @@ class GitHub extends AbstractService
     const SCOPE_HOOKS_ADMIN = 'admin:repo_hook';
 
     /**
+     * Grants read, write, ping, and delete access to hooks in public or private repositories.
+     */
+    const SCOPE_ORG_HOOKS_ADMIN = 'admin:org_hook';
+
+    /**
      * Read-only access to organization, teams, and membership.
      */
     const SCOPE_ORG_READ = 'read:org';
